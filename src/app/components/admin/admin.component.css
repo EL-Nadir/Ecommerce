@@ -1,0 +1,42 @@
+.navbar {
+    background-color: #007bff;
+  }
+  
+  .navbar-brand svg {
+    fill: #ffffff;
+  }
+  
+  .navbar-brand span {
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .p-tabmenu .p-tabmenu-nav {
+    border: none;
+    border-bottom: 4px solid #007bff;
+  }
+  
+  .p-tabmenu .p-tabmenu-nav .p-tabmenuitem {
+    color: #007bff;
+  }
+  
+  .p-tabmenu .p-tabmenu-nav .p-tabmenuitem .p-menuitem-link {
+    color: #007bff;
+  }
+  
+  .p-tabmenu .p-tabmenu-nav .p-tabmenuitem .p-menuitem-link:focus,
+  .p-tabmenu .p-tabmenu-nav .p-tabmenuitem .p-menuitem-link:hover {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
+  .p-tabmenu .p-tabmenu-nav .p-tabmenuitem.p-highlight .p-menuitem-link {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
+  .p-button-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+  

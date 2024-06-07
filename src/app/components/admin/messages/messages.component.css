@@ -1,0 +1,73 @@
+.accordion-container {
+    width: 100%;
+    max-width: 100rem;
+    margin: auto;
+    padding: 0.1rem;
+    background-color: #3a87fa;
+  }
+  
+  p-accordion {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  p-accordionTab {
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  p-accordionTab::ng-deep .ui-accordion-header {
+    background-color: #00a4d6;
+    color: #ffffff;
+    padding: 2rem;
+    font-size: 4rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-bottom: 4px solid #0066ff;
+  }
+  
+  p-accordionTab::ng-deep .ui-accordion-content {
+    background-color: #9eecfa;
+    color: #000000;
+    padding: 2rem;
+    font-size: 2rem;
+    border-left: 4px solid #0066ff;
+    border-right: 4px solid #0066ff;
+    border-bottom: 4px solid #0066ff;
+  }
+  
+  .message-content p {
+    margin: 2rem 0;
+  }
+  
+  .message-content p strong {
+    color: #ff9100;
+  }
+
+
+
+  .delete-button {
+    background-color: #ff4d4d; /* Red background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    padding: 5px 10px; /* Padding for the button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 18px; /* Font size */
+    font-weight: bold; /* Bold text */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for background color and transform */
+  }
+  
+  .delete-button:hover {
+    background-color: #ff1a1a; /* Darker red on hover */
+    transform: scale(1.05); /* Slightly increase size on hover */
+  }
+  
+  .delete-button:active {
+    background-color: #e60000; /* Even darker red on click */
+    transform: scale(1); /* Reset size on click */
+  }
+  
+  

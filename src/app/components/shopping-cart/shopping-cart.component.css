@@ -1,0 +1,27 @@
+/* shopping-cart.component.css */
+.custom-view-order-button {
+    background-color: #007bff; /* Primary color */
+    color: white; /* Text color */
+    /*border-radius: 50px;*/ 
+    padding: 10px 20px; /* Padding */
+    font-size: 20px; /* Font size */
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Center icon and text vertically */
+    justify-content: center; /* Center content horizontally */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+  }
+  
+  .custom-view-order-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  .custom-view-order-button:disabled {
+    background-color: #0056b3; /* Disabled color */
+    cursor: not-allowed; /* Change cursor to not-allowed */
+  }
+  
+  .custom-view-order-button svg {
+    margin-right: 8px; /* Space between icon and text */
+  }
+  

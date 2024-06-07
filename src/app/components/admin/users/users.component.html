@@ -1,0 +1,22 @@
+<h1 style="font-family: 'Courier New', Courier, monospace;"><b>Users List</b></h1>
+<div class="table-container">
+    <table class="styled-table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Full Name</th>
+          <th>Email</th>
+          <th>Address</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of users">
+          <td style="color: red;"><b>{{ user.id }}</b></td>
+          <td style="color: rgba(2, 0, 117, 0.932);"><b>{{ user.fullName }}</b></td>
+          <td><b>{{ user.email }}</b></td>
+          <td style="color: rgb(255, 196, 0);"><b>{{ user.address }}</b></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

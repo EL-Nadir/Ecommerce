@@ -1,0 +1,87 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.title {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+.add-btn {
+  margin-bottom: 20px;
+  background-color: #ffc107;
+  color: #000;
+  font-weight: bold;
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  box-shadow: 0 0 15px rgb(36, 135, 248);
+}
+
+.product-table th, .product-table td {
+  border: 1px solid #ddd;
+  padding: 30px;
+  text-align: center;
+}
+
+.product-table th {
+  background-color: #0b84f5;
+  color: #fff;
+}
+
+.product-table td {
+  background-color: #ffffff;
+}
+
+.product-image {
+  width: 200px;
+  height: auto;
+}
+
+.dialog {
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form-group button {
+  margin-top: 10px;
+  width: 48%;
+  margin-right: 2%;
+}
+
+.form-group .btn-danger {
+  margin-left: 2%;
+}
